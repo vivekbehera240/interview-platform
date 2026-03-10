@@ -1,0 +1,16 @@
+# Maven
+backend/target/
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Uploads
+backend/uploads/
+
+# Never commit secrets
+backend/src/main/resources/application.properties
