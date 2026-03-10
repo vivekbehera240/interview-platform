@@ -108,9 +108,12 @@ interview-platform/
 ---
 
 ## 🤖 How Groq AI is Used
-
+<img width="1440" height="818" alt="Screenshot 2026-03-10 at 8 53 22 PM" src="https://github.com/user-attachments/assets/ca82f5d6-b0ea-4ae3-a519-8a850976c28c" />
 1. **Resume Parsing** — Extracts skills, experience level, and recommended roles from PDF text
+<img width="1440" height="821" alt="Screenshot 2026-03-10 at 8 53 44 PM" src="https://github.com/user-attachments/assets/7d64f21f-77da-407b-9617-883877435404" />
 2. **Question Generation** — Creates tailored questions (technical/conceptual/behavioral) based on skills + role  
+<img width="1440" height="821" alt="Screenshot 2026-03-10 at 8 54 01 PM" src="https://github.com/user-attachments/assets/b8514204-4d44-48e0-9106-ef96176ec291" />
+
 3. **Answer Evaluation** — Scores answers 0–100 with strengths, improvements, and study topics
 
 All prompts are in `ClaudeService.java` and designed to return structured JSON.
