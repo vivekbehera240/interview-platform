@@ -64,7 +64,7 @@ interview-platform/
 │   │   │   ├── ResumeController.java
 │   │   │   └── InterviewController.java
 │   │   ├── service/                  # Business logic
-│   │   │   ├── ClaudeService.java    # All Claude AI calls
+│   │   │   ├── GeminiService.java    # All Claude AI calls
 │   │   │   ├── AuthService.java
 │   │   │   ├── ResumeService.java
 │   │   │   └── InterviewService.java
@@ -107,7 +107,7 @@ interview-platform/
 
 ---
 
-## 🤖 How Claude AI is Used
+## 🤖 How Groq AI is Used
 
 1. **Resume Parsing** — Extracts skills, experience level, and recommended roles from PDF text
 2. **Question Generation** — Creates tailored questions (technical/conceptual/behavioral) based on skills + role  
@@ -149,3 +149,8 @@ brew install maven
 - **Frontend:** React 18, React Router 6, Recharts, Axios, Lucide icons
 - **AI:** Anthropic Claude API (claude-sonnet-4-20250514)
 - **PDF:** Apache PDFBox
+
+👩‍💻 Developers
+Name                   GitHub
+Vishakha Chaudhari---- @vishakhachaudhari
+Vivek Behera------     @vivekbehera240
